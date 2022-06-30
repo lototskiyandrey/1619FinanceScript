@@ -24,8 +24,7 @@ import pandas as pd
 import numpy as np
 
 # Get the data from the CSV
-inputCSV = pd.read_csv("Itemized_balance_change_from_activity_charge_USD_2022-05-01_to_2022-05-31_America-Denver -"
-                       " Itemized_balance_change_from_activity_charge_USD_2022-05-01_to_2022-05-31_America-Denver.csv")
+inputCSV = pd.read_csv("Itemized_balance_change_from_activity_charge_USD_2022-06-01_to_2022-06-29_America-Denver.csv")
 # Make a new pandas dataframe with the correct columns, but no data
 data = {'Date': [], 'Description': [], 'Amount': []}
 QBfile = pd.DataFrame(data=data)
